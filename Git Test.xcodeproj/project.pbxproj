@@ -21,6 +21,7 @@
 		689E1B0F193B0D6E008F2BB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689E1AF1193B0D6E008F2BB1 /* UIKit.framework */; };
 		689E1B17193B0D6E008F2BB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 689E1B15193B0D6E008F2BB1 /* InfoPlist.strings */; };
 		689E1B19193B0D6E008F2BB1 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 689E1B18193B0D6E008F2BB1 /* Git_TestTests.m */; };
+		689E1B24193B1060008F2BB1 /* SATest.m in Sources */ = {isa = PBXBuildFile; fileRef = 689E1B23193B1060008F2BB1 /* SATest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		689E1B14193B0D6E008F2BB1 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		689E1B16193B0D6E008F2BB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		689E1B18193B0D6E008F2BB1 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		689E1B22193B1060008F2BB1 /* SATest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SATest.h; sourceTree = "<group>"; };
+		689E1B23193B1060008F2BB1 /* SATest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SATest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				689E1B03193B0D6E008F2BB1 /* SAViewController.m */,
 				689E1B05193B0D6E008F2BB1 /* Images.xcassets */,
 				689E1AF4193B0D6E008F2BB1 /* Supporting Files */,
+				689E1B22193B1060008F2BB1 /* SATest.h */,
+				689E1B23193B1060008F2BB1 /* SATest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				689E1AFE193B0D6E008F2BB1 /* SAAppDelegate.m in Sources */,
 				689E1B04193B0D6E008F2BB1 /* SAViewController.m in Sources */,
 				689E1AFA193B0D6E008F2BB1 /* main.m in Sources */,
+				689E1B24193B1060008F2BB1 /* SATest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
